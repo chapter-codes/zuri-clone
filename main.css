@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Roboto;
+    src: url('./open-sans/OpenSans-Bold.ttf') ;
+
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('./open-sans/OpenSans-Regular.ttf') ;
+
+    font-weight: 400;
+}
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+ --btn-color:rgb(221, 16, 16);
+}
+body{
+    padding:2rem .5rem;
+    font-family: 'Roboto', monospace ;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:2rem .5rem;
+    background-color: rgb(255, 244, 231);
+}
+
+.logo{
+    margin:2.5rem 0;
+}
+.desc {
+    padding: 2rem 0;
+}
+.speech p{
+    line-height: 1.75rem;
+    padding: 0 .5rem;
+    text-align: center;
+}
+
+.highlight a{
+    color:red;
+    text-decoration:none;
+}
+
+.nav-links {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   margin:2rem 0 3rem 0;
+}
+
+.nav-links button{
+    margin:.5rem 0;
+    padding:1rem 1.5rem;
+    font-family: inherit;
+    
+}
+
+button#new-to-ind{
+    background-color: var(--btn-color);
+    color:white;
+    border: 1px solid var(--btn-color);
+}
+
+button#need-xprence{
+    color:var(--btn-color);
+    border:1px solid var(--btn-color);
+    background-color: white;
+}
+
+.host-section{
+    padding:3rem .5rem;
+}
+.host {
+    color:var(--btn-color);
+    text-align: center;
+    font:500;
+    margin: 1rem 0;
+
+}
+.host-desc{
+    text-align:center;
+    font-weight: normal;
+}
+
+.offers{
+    padding:1rem;
+}
+
+.offers > div{
+    background-color: rgb(253, 237, 213);
+    padding:3rem 2rem;
+    margin:3rem 0;
+    color:rgb(53, 45, 45);
+}
+
+.offer-img{
+ opacity:.9
+}
+
+.offers p{
+    line-height: 1.8rem;
+    padding:2rem 0;
+
+}
+
+.offers a{
+    color:var(--btn-color);
+    text-decoration: none;
+}
