@@ -1,17 +1,6 @@
-@font-face {
-    font-family: Roboto;
-    src: url('./open-sans/OpenSans-Bold.ttf') ;
+@import url('http://fonts.cdnfonts.com/css/averta-blackitalic');
 
-    font-weight: 800;
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url('./open-sans/OpenSans-Regular.ttf') ;
-
-    font-weight: 400;
-}
-
+                
 
 *{
     margin:0;
@@ -21,10 +10,11 @@
 
 :root{
  --btn-color:rgb(221, 16, 16);
+ --main-color: #fffafa;
 }
 body{
     padding:2rem .5rem;
-    font-family: 'Roboto', monospace ;
+    font-family: 'Averta-Regular', sans-serif ;
 }
 
 .intro{
@@ -119,3 +109,9 @@ button#need-xprence{
     color:var(--btn-color);
     text-decoration: none;
 }
+
+
+.hero[
+]
+
+[heloo]
