@@ -10,6 +10,7 @@ $text-color:#7f7777;
 $pri-text:red;
 $desktop:800px;
 $hor-rule-color:#dcdbdb;
+$regular-font:'Averta-Regular', sans-serif;
 
 body{
     font-family: 'Averta-Light', sans-serif;    padding-bottom:2rem;
@@ -34,10 +35,12 @@ body{
 }
 .desc {
     padding: 2rem 0;
+    font-size:18px;
+    font-family:$regular-font;
 }
 .speech p{
     line-height: 1.75rem;
-    padding: 0 .5rem;
+    padding: 0 .5rem 4rem;
     text-align: center;
     color:$text-color;
     font-weight:bold;
@@ -59,7 +62,7 @@ body{
          button{
             margin:.5rem 0;
             padding:1rem 1.5rem;
-            font-family: 'Averta-Regular', sans-serif;
+            font-family: $regular-font;
             font-size:16px;
             transition:hover 3ms;
             
@@ -112,6 +115,13 @@ body{
     .host-desc{
         text-align:center;
         font-weight: normal;
+        max-width:400px;
+        margin:auto;
+        font-family:$regular-font ;
+    
+    }
+    @media(min-width:$desktop){
+        padding:0 25rem;
     }
 
 }
@@ -138,7 +148,7 @@ body{
      p{
         line-height: 1.8rem;
         padding:2rem 0;
-        font-family:'Averta-Regular', sans-serif;
+        font-family:$regular-font;
 
     }
      a{
@@ -161,7 +171,7 @@ body{
 footer{
    
     padding:10rem 0 5rem;
-    font-family: 'Averta-Regular', sans-serif;
+    font-family: $regular-font;
 
     .container{
     display:flex;

@@ -23,11 +23,13 @@ body {
 
 .desc {
   padding: 2rem 0;
+  font-size: 18px;
+  font-family: "Averta-Regular", sans-serif;
 }
 
 .speech p {
   line-height: 1.75rem;
-  padding: 0 0.5rem;
+  padding: 0 0.5rem 4rem;
   text-align: center;
   color: #7f7777;
   font-weight: bold;
@@ -93,6 +95,14 @@ body {
 .host-section .host-desc {
   text-align: center;
   font-weight: normal;
+  max-width: 400px;
+  margin: auto;
+  font-family: "Averta-Regular", sans-serif;
+}
+@media (min-width: 800px) {
+  .host-section {
+    padding: 0 25rem;
+  }
 }
 
 .offers {

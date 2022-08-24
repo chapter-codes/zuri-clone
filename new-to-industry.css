@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px;
+}
+
+body {
+  padding: 2rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 5rem;
+  width: 100%;
+  padding: 1rem 0.5rem;
+}
+header .center {
+  display: none;
+}
+header .right {
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
+.thumbs {
+  width: 50px;
+  height: 50px;
+  background: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thumbs img {
+  width: 80%;
+  overflow: hidden;
+}
+
+.enroll {
+  height: 30px;
+  background-color: red;
+}
+
+.enroll a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+main a.enroll {
+  border-radius: 20px;
+  text-decoration: none;
+  background: #ff0000;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  display: inline-block;
+  text-transform: capitalize;
+}
+main p.highlight {
+  color: #ff0000;
+  font-size: 22px;
+  padding: 0.5rem 0;
+  text-transform: capitalize;
+}
+main section {
+  padding: 1rem 0.5rem;
+}
+
+.hero {
+  width: 100%;
+}
+.hero > div {
+  text-align: center;
+}
+.hero .center {
+  padding: 2rem 0;
+}
+.hero .center .caption {
+  color: red;
+  font-size: 20px;
+  padding: 0.8rem 0;
+}
+.hero .center .speech {
+  font-size: 20px;
+  padding: 1rem 2rem 0;
+}
+.hero .center .line {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 2rem 0 0;
+}
+.hero .center .line > div {
+  height: 100%;
+  width: 40%;
+  height: inherit;
+  position: relative;
+  top: -10px;
+}
+.hero .center .micro-avatar {
+  display: none;
+}
+.hero .center .wire {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -10px;
+}
+.hero .center .wire img {
+  height: inherit;
+  width: auto;
+  padding: 0 0 0 7rem;
+}
+.hero .right {
+  display: none;
+}
+
+#about {
+  padding: 2rem 1rem;
+}
+#about > div {
+  text-align: center;
+}
+#about .i4g {
+  padding: 0 2rem;
+}
+#about .powrd-by {
+  height: 10rem;
+  width: 100%;
+}
+#about .powrd-by img {
+  height: inherit;
+  width: auto;
+}
+#about .aim {
+  margin-bottom: 3rem;
+}
+#about .aim a {
+  color: green;
+}
+
+#why-us {
+  background-color: #FFF4F0;
+}
+#why-us .wire-3 {
+  display: flex;
+  justify-content: center;
+  height: 3rem;
+  width: 100%;
+}
+#why-us .wire-3 img {
+  height: inherit;
+  width: auto;
+}
+#why-us .left h1 {
+  font-size: 30px;
+  padding: 0 0 10px 0;
+}
+#why-us .right {
+  display: none;
+}
+#why-us .why-grid {
+  display: grid;
+  grid-auto-rows: minmax(500px, auto);
+  padding: 0 1rem;
+}
+#why-us .why-grid > div {
+  background-color: white;
+  padding: 4rem 4rem 4rem 2rem;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0 0 3px 5px white;
+  margin: 2rem 0;
+}
+#why-us .why-grid > div h1 {
+  font-size: 60px;
+}
+#why-us .why-grid > div h2 {
+  padding: 1rem 2rem 1rem 0;
+  text-transform: capitalize;
+  font-size: 30px;
+  width: 200px;
+  word-break: keep-all;
+}
+#why-us .why-grid > div img {
+  height: 100px;
+  width: auto;
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+#why-us .why-grid > div p {
+  font-size: 23px;
+  line-height: 1.5rem;
+}
+#why-us .why-grid > div:first-of-type {
+  background-color: #ff0000;
+  color: white;
+}
+
+#getting-you-started {
+  background-color: #ff0000;
+  padding-left: 1rem;
+}
+#getting-you-started .five-wire {
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+#getting-you-started img {
+  height: inherit;
+  width: auto;
+}
+#getting-you-started .left {
+  color: white;
+}
+#getting-you-started .left p.one {
+  padding: 0.25rem 0;
+}
+#getting-you-started .left h2 {
+  font-size: 30px;
+}
+#getting-you-started .left p {
+  padding: 1.5rem 0;
+  font-size: 25px;
+  line-height: 1.5rem;
+}
+#getting-you-started .left .enroll {
+  background-color: white;
+  color: #ff0000;
+}
+#getting-you-started .left .group {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#getting-you-started .left .group img {
+  height: 25px;
+  width: auto;
+}
+#getting-you-started .left .group p {
+  font-size: 12px;
+  padding-left: 5px;
+  text-transform: capitalize;
+}
+#getting-you-started .left .item {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  margin: 1rem 0.5rem;
+  border-radius: 50px;
+  padding: 0 10px;
+}
+#getting-you-started .right {
+  width: 100%;
+  margin-top: 2rem;
+}
+#getting-you-started .right img {
+  width: 100%;
+  height: auto;
+}
+#getting-you-started .dot {
+  width: 100%;
+  height: 2rem;
+  margin: 3rem 0rem 3rem 3rem;
+}
+
+#stacks-covered {
+  padding: 2rem 1rem;
+}
+#stacks-covered h2 {
+  font-size: 30px;
+}
+#stacks-covered .wire-6 {
+  height: 8rem;
+  width: 100%;
+  text-align: center;
+}
+#stacks-covered .wire-6 img {
+  height: inherit;
+  width: auto;
+}
+
+/*# sourceMappingURL=new-to-industry.css.map */
